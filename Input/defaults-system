@@ -1,0 +1,79 @@
+#----------------------------------------------------------------------
+# defaults-system file for build-antiX-iso
+#
+# This file has the lowest priority.  In addition, values that are only
+# set in this file will not show up in --pretend mode are at the end of
+# stage-0 unless you use the --verbose flag.
+#
+# Initially, it was designed to hold values that almost never change except when
+# the build-antiX-iso program goes through a major update. These
+# values can be changed but they are kept out of the way here because
+# they seldom need to be changed.
+
+# However, if one uses --user-defaults, "defaults" file is no longer loaded so
+# it's important to have here the common default values
+#----------------------------------------------------------------------
+
+    APT_GET_OPTS="-q -y -o DPkg::Options::=--force-confold"
+           CACHE="debootstrap,chroot"
+    CACHE_EXPIRE="7"
+
+# Fixed amount plus X times number of packages. Both in units of 100K.
+      TMPFS_SIZE="2500 + 70"
+
+  MAKE_ISO_PROGS="xorriso mkisofs genisoimage"
+      GZIP_PROGS="pigz gzip"
+  DUMMY_SERVICES="initctl invoke-rc.d restart start stop start-stop-daemon service"
+       PS_FORMAT="pid,user,etimes,args"
+
+# this is basic version info. used to make mx-version among other things
+BUG_REPORT_URL="https://ospione.gbudou.com"
+HOME_URL="https://ospione.gbudou.com"
+CODE_NAME="kyohou"
+ASCII_CODE_NAME="bookworm"
+
+DISTRO_VERSION="23.1"
+DISTRO_NAME="PioneOS"
+RELEASE_DATE="2023/11/02"
+
+# system defaults, these end up inside the squash file system mostly
+DEBIAN_RELEASE="bookworm"
+
+LIVE_USER="demo"
+NEW_HOSTNAME="pos0"
+
+# kernel
+# standard 64 bit
+K_REVISION="13"
+K_TEMPLATE="%V%G-%R-%A"
+K_VERSION="6.1.0"
+UNSIGNED=""
+
+# system defaults, these end up inside the squash file system mostly
+LIVE_USER="demo"
+LOCALE="ja_JP.UTF-8"
+MIRROR="jp"
+LOCAL_MIRROR="jp"
+MIRROR_URL_TEMPLATE='http://ftp.$LOCAL_MIRROR.debian.org/debian'
+NEW_HOSTNAME="pos0"
+TIME_ZONE="Asia/Tokyo"
+
+X_TERM_EMULATOR="/usr/bin/xfce4-terminal.wrapper"
+CURSOR_ICON_THEME="/usr/share/icons/DMZ-Black/cursor.theme"
+
+# options for building squashfs
+COMPRESSION_TYPE="zstd"
+COMPRESSION_TYPE_CODE="-comp zstd -Xcompression-level 15 -b 262144"
+
+# sign isos
+SIGN_FILES="true"
+
+# legacy variables that don't change
+USE_UEFI=true
+MEM_TEST_BUG=
+NO_SET_HOSTNAME=""
+
+# default live boot options
+antiX_LIVE_BOOT_OPTIONS="quiet splash=v disable=lx"
+CORE_LIVE_BOOT_OPTIONS="quiet splash=v disable=lxd"
+MX_LIVE_BOOT_OPTIONS="quiet splasht nosplash"
