@@ -1,7 +1,5 @@
-***Note*** the master branch is under development.  If you want the last stable branch, use the "bullseye" branch.
-
 # PioneOS ビルド用スクリプト
-PioneOS は MX Linux の build-iso-mx というビルドツールをカスタマイズしたものを使用しています。
+PioneOS は MX Linux の [build-iso-mx](https://github.com/MX-Linux/build-iso-mx) というビルドツールをカスタマイズしたものを使用しています。
 
 
 ## Requirements

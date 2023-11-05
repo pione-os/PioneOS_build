@@ -16,7 +16,7 @@ HOME_URL="https://ospione.gbudou.com"
 CODE_NAME="kyohou"
 ASCII_CODE_NAME="bookworm"
 
-DISTRO_VERSION="23.1"
+DISTRO_VERSION="0.0"
 #DISTRO_VERSION="23.1_ahs_beta1"
 #DISTRO_VERSION="23.1_kde_beta1"
 #DISTRO_VERSION="23.1_fluxbox_beta1"
@@ -30,19 +30,6 @@ DEBIAN_RELEASE="bookworm"
 LIVE_USER="demo"
 NEW_HOSTNAME="pos0"
 
-# kernel
-# ahs
-#K_REVISION="4mx"
-#K_TEMPLATE="%V%G-%R-%A"
-#K_VERSION="5.16.0"
-#UNSIGNED="-unsigned"
-
-# standard 32 bit
-#K_REVISION="13"
-#K_TEMPLATE="%V%G-%R-%A-pae"
-#K_VERSION="5.10.0"
-#UNSIGNED=""
-
 # standard 64 bit
 K_REVISION="13"
 K_TEMPLATE="%V%G-%R-%A"
@@ -55,26 +42,16 @@ LOCALE="ja_JP.UTF-8"
 MIRROR="jp"
 NEW_HOSTNAME="pos0"
 TIME_ZONE="Asia/Tokyo"
-
+ENABLE_LOCALES=Default
+THEME=normal
+ISO_FLAV="normal"
+ARCH=amd64
 X_TERM_EMULATOR="/usr/bin/xfce4-terminal.wrapper"
 CURSOR_ICON_THEME="/usr/share/icons/DMZ-Black/cursor.theme"
 
-# options for building squashfs
-# lz4 is good for testing but large isos
-# options You need both 
-# xz use -comp xz -Xbcj x86
-# xz use -comp xz -b 262144 #use for base
-# lz4 use -comp lz4 -Xhc
-# gzip leave empty #use for full
-#COMPRESSION_TYPE="xz"
-#COMPRESSION_TYPE_CODE="-comp xz -Xbcj x86"
-#COMPRESSION_TYPE="zstd"
-#COMPRESSION_TYPE_CODE="-comp zstd -Xcompression-level 15 -b 262144"
-#COMPRESSION_TYPE="lz4"
-#COMPRESSION_TYPE_CODE="-comp lz4 -Xhc"
 
 # sign isos
-SIGN_FILES="true"
+SIGN_FILES="false"
 
 # legacy variables that don't change
 USE_UEFI=true
@@ -85,4 +62,6 @@ NO_SET_HOSTNAME=""
 antiX_LIVE_BOOT_OPTIONS="quiet splash=v disable=lx"
 CORE_LIVE_BOOT_OPTIONS="quiet splash=v disable=lxd"
 MX_LIVE_BOOT_OPTIONS="quiet splasht nosplash"
+
+
 

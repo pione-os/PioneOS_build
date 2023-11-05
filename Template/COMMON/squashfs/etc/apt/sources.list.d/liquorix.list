@@ -1,2 +1,2 @@
-deb http://liquorix.net/debian bookworm main
-deb-src http://liquorix.net/debian bookworm main
+deb [arch=amd64] http://liquorix.net/debian bookworm main
+deb-src [arch=amd64] http://liquorix.net/debian bookworm main
