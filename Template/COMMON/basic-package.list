@@ -4,4 +4,3 @@ desktop-base
 initramfs-tools
 locales
 whois
-systemd-sysv

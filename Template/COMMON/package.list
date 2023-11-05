@@ -224,7 +224,7 @@ pciutils
 pcmciautils
 pm-utils
 pmount
-policykit
+policykit-1
 powermgmt-base
 printer-driver-all
 procps
@@ -259,7 +259,6 @@ syslinux-common
 syslinux-utils
 system-tools-backends
 systemd
-sysv-rc-conf
 tcl
 tcpd
 tdb-tools
