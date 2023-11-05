@@ -5,6 +5,7 @@ dip
 floppy
 #fuse
 lp
+lightdm
 lpadmin
 netdev
 plugdev

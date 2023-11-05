@@ -1,3 +1,4 @@
+abiword
 acl
 acpi
 acpi-fakekey
@@ -68,6 +69,7 @@ espeak-ng-data
 ethtool
 exfatprogs
 extlinux
+emacs
 extundelete
 f2fs-tools
 fakeroot
@@ -87,7 +89,8 @@ firmware-brcm80211
 firmware-intel-sound
 firmware-iwlwifi
 firmware-libertas
-firmware-linux-free
+firmware-linux
+firmware-linux-nonfree
 firmware-myricom
 firmware-netxen
 firmware-qlogic
@@ -178,6 +181,7 @@ lshw
 lsof
 lvm2
 lxrandr
+lxtask
 make
 manpages
 mbr
@@ -191,7 +195,9 @@ mime-support
 mlocate
 module-assistant
 mokutil
+mousepad
 most
+mozo
 mpg123
 mtools
 mtr
@@ -231,6 +237,7 @@ procps
 psmisc
 psutils
 pv
+plymouth
 python3
 python3-pip
 qt5-gtk-platformtheme
@@ -249,6 +256,7 @@ sdparm
 sgml-data
 shared-mime-info
 spice-vdagent
+smplayer
 squashfs-tools
 sshfs
 ssl-cert
@@ -292,6 +300,7 @@ wavpack
 whois
 wireless-regdb
 wireless-tools
+w3m
 wmctrl
 wpasupplicant
 wvdial
@@ -326,6 +335,7 @@ xorg
 xorriso
 xserver-xorg-input-all
 xserver-xorg-video-all
+xz-utils
 yad
 zip
 zram-tools

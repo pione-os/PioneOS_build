@@ -6,6 +6,8 @@ start_theme "$@"
 
 rm -R /etc/skel/.conky
 mkdir -p /etc/skel/.local/share/applications/
+copy_file lightdm.conf		/etc/lightdm/
+#copy_file lightdm-gtk-greeter.conf /etc/lightdm/
 copy_file grub                  /etc/default/
 #copy_dir desktop-base/          /usr/share/desktop-base/	--create
 #copy_dir conky/               	/etc/skel/.conky/          	--create
@@ -15,8 +17,6 @@ copy_file etc/rc.local              /etc/
 copy_file libuser.conf          /etc/
 copy_file modules               /etc/
 copy_file timezone		/etc/
-copy_file lightdm.conf		/etc/lightdm/
-copy_file lightdm-gtk-greeter.conf /etc/lightdm/
 copy_file pc-speaker.conf	/etc/modprobe.d/
 copy_file desktop.data          /usr/local/share/boot-menus/
 copy_file desktop.menu          /usr/local/share/boot-menus/
