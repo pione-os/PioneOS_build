@@ -48,7 +48,6 @@ LEAN_SERVICES="
     irqbalance
     loadcpufreq
     lvm2
-    mdadm
     nfs-common
     ntpsec
     ofono

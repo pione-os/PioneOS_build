@@ -1815,7 +1815,7 @@ do_stage_8() {
 
     else
         warn "Disabling 'dd' live-usb UEFI booting"
-        $MAKE_ISO -l -V antiXlive -R -J -pad -no-emul-boot -boot-load-size 4  \
+        $MAKE_ISO -l -V pioneoslive -R -J -pad -no-emul-boot -boot-load-size 4  \
             -boot-info-table -gid 0 -uid 0 -b boot/isolinux/isolinux.bin      \
             -c boot/isolinux/isolinux.cat -o $full_iso_file $iso_dir 2>&1 \
             || error "iso file creation failed"
@@ -2543,7 +2543,7 @@ has_option() {
 
 make_uefi_iso() {
     local prog=$1 uefi=$2  file=$3 dir=$4
-    local cmd="$prog -l -V antiXlive -R -J -pad -no-emul-boot
+    local cmd="$prog -l -V pioneoslive -R -J -pad -no-emul-boot
     -boot-load-size 4  -boot-info-table -b boot/isolinux/isolinux.bin
     -eltorito-alt-boot $uefi boot/grub/efi.img -no-emul-boot
     -quiet -c boot/isolinux/isolinux.cat -o $file $dir"

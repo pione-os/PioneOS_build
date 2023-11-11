@@ -23,6 +23,7 @@ busybox
 bzip2
 ca-certificates
 calamares
+calamares-settings-debian
 cabextract
 chrony
 chromium
@@ -74,8 +75,15 @@ extundelete
 f2fs-tools
 fakeroot
 fbcat
-fcitx5
 fcitx5-anthy
+kasumi
+anthy
+fcitx5-configtool
+fcitx5-frontend-gtk3
+fcitx5-frontend-gtk4
+fcitx5-frontend-qt5
+fcitx5-frontend-qt6
+im-config
 file
 firefox-esr
 firmware-amd-graphics
@@ -100,6 +108,7 @@ firmware-realtek
 firmware-samsung
 firmware-sof-signed
 firmware-zd1211
+filezilla
 fontconfig
 fonts-crosextra-caladea
 fonts-crosextra-carlito
@@ -122,7 +131,6 @@ ghostscript
 ghostscript-x
 gimp
 glib-networking
-gnome-icon-theme
 gnupg2
 gocr
 grub-efi-amd64-bin
@@ -133,6 +141,7 @@ gsmartcontrol
 gstreamer1.0-alsa
 gstreamer1.0-libav
 gufw
+gvfs
 haveged
 hdparm
 hexedit
@@ -172,6 +181,7 @@ linux-base
 linux-libc-dev
 lightdm
 lightdm-gtk-greeter
+lightdm-settings
 linux-image-liquorix-amd64
 linux-headers-liquorix-amd64
 lm-sensors
@@ -186,7 +196,6 @@ make
 manpages
 mbr
 mc
-mdadm
 menu
 menu-l10n
 menu-xdg
@@ -208,6 +217,7 @@ neofetch
 neovim
 netcat-traditional
 network-manager
+network-manager-gnome
 network-manager-openconnect
 network-manager-openvpn
 network-manager-pptp
@@ -237,9 +247,12 @@ procps
 psmisc
 psutils
 pv
+pulseaudio
+pavucontrol
 plymouth
 python3
 python3-pip
+python3-requests
 qt5-gtk-platformtheme
 qt6-translations-l10n
 qttranslations5-l10n
@@ -328,6 +341,7 @@ xfce4-taskmanager
 xfce4-terminal
 xfce4-timer-plugin
 xfce4-verve-plugin
+xfce4-notifyd
 xfconf
 xfwm4
 xml-core

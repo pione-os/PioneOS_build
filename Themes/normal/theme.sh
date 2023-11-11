@@ -10,7 +10,7 @@ start_theme "$@"
 
 #copy_file grub                  /etc/default/
 copy_dir etc/               	/etc/       	--create
-
+copy_dir usr/               	/usr/       	--create
 ##alpha
 
 #copy_file MXALPHAWALL.png /usr/share/backgrounds/
