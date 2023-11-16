@@ -1,0 +1,37 @@
+---
+componentName:   pioneos
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,520px
+windowPlacement: center
+
+strings:
+    productName:         PioneOS
+    shortProductName:    PioneOS
+    version:             0.0
+    shortVersion:        0.0
+    versionedName:       PioneOS (kyohou)
+    shortVersionedName:  PioneOS 0.0
+    bootloaderEntryName: PioneOS
+    productUrl:          https://ospio.net
+    supportUrl:          https://www.debian.org/support
+    knownIssuesUrl:      https://bugs.debian.org
+    releaseNotesUrl:     https://www.debian.org/releases/bookworm/releasenotes
+    donateUrl:           https://www.debian.org
+
+images:
+    productLogo:         "pioneos-logo.png"
+    productIcon:         "pioneos-logo.png"
+    productWelcome:      "welcome.png"
+    # productWallpaper:  "wallpaper.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2c3133"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4d7079"
+   sidebarTextSelect:    "#292F34"
+
+slideshowAPI: 2

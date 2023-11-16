@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Writes the final sources.list file
+#
+
+
+
+exit 0

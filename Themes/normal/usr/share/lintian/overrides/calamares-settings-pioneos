@@ -1,0 +1,5 @@
+# Only meant to be run by calamares, so its scripts wouldn't have manpages
+calamares-settings-pioneos: binary-without-manpage
+
+# We don't provide this file on purpose
+calamares-settings-pioneos: diversion-for-unknown-file

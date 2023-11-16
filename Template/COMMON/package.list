@@ -23,7 +23,6 @@ busybox
 bzip2
 ca-certificates
 calamares
-calamares-settings-debian
 cabextract
 chrony
 chromium
@@ -78,6 +77,7 @@ fbcat
 fcitx5-anthy
 kasumi
 anthy
+fcitx5
 fcitx5-configtool
 fcitx5-frontend-gtk3
 fcitx5-frontend-gtk4

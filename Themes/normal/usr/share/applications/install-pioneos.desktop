@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install PioneOS
+GenericName=Calamares Installer
+Exec=install-pioneos
+Comment=Calamares — Installer for PioneOS Live
+Keywords=calamares;system;install;pioneos;installer
+Icon=install-pioneos
+Terminal=false
+Categories=Qt;System;
+StartupWMClass=calamares
+StartupNotify=True
