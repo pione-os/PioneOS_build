@@ -11,6 +11,7 @@ start_theme "$@"
 #copy_file grub                  /etc/default/
 copy_dir etc/               	/etc/       	--create
 copy_dir usr/               	/usr/       	--create
+rm /usr/share/applications/calamares.desktop
 ##alpha
 
 #copy_file MXALPHAWALL.png /usr/share/backgrounds/
