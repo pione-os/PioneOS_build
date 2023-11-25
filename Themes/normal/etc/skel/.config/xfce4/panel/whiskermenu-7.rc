@@ -1,5 +1,5 @@
 favorites=
-recent=gimp.desktop,chromium.desktop,firefox-esr.desktop,gparted.desktop,org.xfce.mousepad.desktop,org.fcitx.Fcitx5.desktop,org.fcitx.fcitx5-migrator.desktop,xfce-session-settings.desktop,xfce4-mime-settings.desktop,thunar.desktop
+recent=
 button-icon=/etc/pioneos/1.png
 button-single-row=false
 show-button-title=false
@@ -8,24 +8,24 @@ launcher-show-name=true
 launcher-show-description=true
 launcher-show-tooltip=true
 launcher-icon-size=2
-hover-switch-category=false
+hover-switch-category=true
 category-show-name=true
 category-icon-size=1
 sort-categories=true
-view-mode=1
+view-mode=0
 default-category=0
 recent-items-max=10
 favorites-in-recent=true
-position-search-alternate=false
-position-commands-alternate=false
+position-search-alternate=true
+position-commands-alternate=true
 position-categories-alternate=true
-position-categories-horizontal=false
+position-categories-horizontal=true
 stay-on-focus-out=false
-profile-shape=0
+profile-shape=2
 confirm-session-command=true
-menu-width=450
-menu-height=500
-menu-opacity=100
+menu-width=1280
+menu-height=725
+menu-opacity=95
 command-settings=xfce4-settings-manager
 show-command-settings=false
 command-lockscreen=xflock4
@@ -59,7 +59,7 @@ regex=false
 [action1]
 name=Search the Web
 pattern=?
-command=exo-open --launch WebBrowser https://duckduckgo.com/?q=%u
+command=exo-open --launch WebBrowser https://www.google.com/search?q=%u
 regex=false
 
 [action2]

@@ -12,6 +12,9 @@ start_theme "$@"
 copy_dir etc/               	/etc/       	--create
 copy_dir usr/               	/usr/       	--create
 rm /usr/share/applications/calamares.desktop
+rm -f /etc/localtime
+ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+
 ##alpha
 
 #copy_file MXALPHAWALL.png /usr/share/backgrounds/

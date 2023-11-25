@@ -86,6 +86,7 @@ fcitx5-frontend-qt6
 im-config
 file
 firefox-esr
+firefox-esr-l10n-ja
 firmware-amd-graphics
 firmware-ath9k-htc
 firmware-atheros
@@ -110,15 +111,15 @@ firmware-sof-signed
 firmware-zd1211
 filezilla
 fontconfig
-fonts-crosextra-caladea
-fonts-crosextra-carlito
 fonts-dejavu
-fonts-droid-fallback
+fonts-ipafont
 fonts-freefont-ttf
 fonts-liberation
 fonts-lyx
 fonts-noto
+fonts-vlgothic
 fonts-opensymbol
+fonts-noto-color-emoji
 fonts-uralic
 foomatic-db-compressed-ppds
 fprintd
@@ -193,7 +194,6 @@ lshw
 lsof
 lvm2
 lxrandr
-lxtask
 make
 manpages
 mbr
