@@ -263,6 +263,7 @@ read-edid
 rfkill
 rpcbind
 rpl
+ristretto
 rsync
 rsyslog
 samba
@@ -273,6 +274,7 @@ sgml-data
 shared-mime-info
 spice-vdagent
 smplayer
+smplayer-l10n
 squashfs-tools
 sshfs
 ssl-cert
