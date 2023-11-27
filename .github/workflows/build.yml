@@ -21,3 +21,8 @@ jobs:
     - run: sudo apt install -y debootstrap genisoimage syslinux-utils squashfs-tools zsync expect
 
     - run: ./build-iso --user-default defaults
+
+    - uses: actions/upload-artifact@v3
+      with:
+        name: PioneOS_build
+        path: Remaster/iso-files/PioneOS-0.0_x64.iso
