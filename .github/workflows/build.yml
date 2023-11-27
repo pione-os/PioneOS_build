@@ -1,0 +1,23 @@
+name: Build PioneOS
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - run: sudo apt update
+    
+    - run: sudo apt upgrade -y
+
+    - run: sudo apt install -y debootstrap genisoimage syslinux-utils squashfs-tools zsync expect
+
+    - run: ./build-iso --user-default defaults
