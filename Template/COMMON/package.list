@@ -76,6 +76,7 @@ fakeroot
 fbcat
 fcitx5-anthy
 kasumi
+kana-voice-tool
 anthy
 fcitx5
 fcitx5-config-qt
@@ -238,6 +239,7 @@ openvpn
 os-prober
 p7zip-full
 passwd
+papirus-icon-theme
 patch
 pciutils
 pcmciautils
