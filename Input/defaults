@@ -22,7 +22,7 @@ DISTRO_VERSION="0.0"
 #DISTRO_VERSION="23.1_fluxbox_beta1"
 
 DISTRO_NAME="PioneOS"
-RELEASE_DATE="2023/11/25"
+RELEASE_DATE="2023/12/03"
 
 # system defaults, these end up inside the squash file system mostly
 DEBIAN_RELEASE="bookworm"
@@ -47,7 +47,7 @@ THEME=normal
 ISO_FLAV="normal"
 ARCH=amd64
 X_TERM_EMULATOR="/usr/bin/xfce4-terminal.wrapper"
-CURSOR_ICON_THEME="/usr/share/icons/DMZ-Black/cursor.theme"
+CURSOR_ICON_THEME="/usr/share/icons/DMZ-White/cursor.theme"
 
 
 # sign isos

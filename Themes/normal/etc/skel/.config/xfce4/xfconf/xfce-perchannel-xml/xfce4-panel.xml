@@ -104,6 +104,7 @@
         <value type="string" value="Fcitx"/>
         <value type="string" value="nm-tray"/>
       </property>
+      <property name="icon-size" type="int" value="0"/>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
