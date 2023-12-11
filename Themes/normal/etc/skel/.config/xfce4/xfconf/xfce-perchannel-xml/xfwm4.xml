@@ -84,8 +84,6 @@
     <property name="workspace_names" type="array">
       <value type="string" value="ワークスペース 1"/>
       <value type="string" value="ワークスペース 2"/>
-      <value type="string" value="ワークスペース 3"/>
-      <value type="string" value="ワークスペース 4"/>
     </property>
   </property>
 </channel>
