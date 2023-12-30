@@ -16,13 +16,11 @@ HOME_URL="https://ospio.net"
 CODE_NAME="kyohou"
 ASCII_CODE_NAME="bookworm"
 
-DISTRO_VERSION="0.0"
-#DISTRO_VERSION="23.1_ahs_beta1"
-#DISTRO_VERSION="23.1_kde_beta1"
-#DISTRO_VERSION="23.1_fluxbox_beta1"
+DISTRO_VERSION="0.5"
+
 
 DISTRO_NAME="PioneOS"
-RELEASE_DATE="2023/12/10"
+RELEASE_DATE="2023/12/31"
 
 # system defaults, these end up inside the squash file system mostly
 DEBIAN_RELEASE="bookworm"
@@ -42,7 +40,7 @@ LOCALE="ja_JP.UTF-8"
 MIRROR="jp"
 NEW_HOSTNAME="pos0"
 TIME_ZONE="Asia/Tokyo"
-ENABLE_LOCALES=Default
+ENABLE_LOCALES=Single
 THEME=normal
 ISO_FLAV="normal"
 ARCH=amd64

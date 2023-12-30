@@ -184,7 +184,7 @@ do_start() {
         [ -z "${disable_param##*[w]*}" ] &&             WICD=no
         [ -z "${disable_param##*[W]*}" ] &&             WICD=yes
         [ -z "${disable_param##*[x]*}" ] &&        XTRA_LEAN=true
-        [ -z "${disable_param##*[Y]*}" ] &&  ENABLE_PLYMOUTH=true
+#        [ -z "${disable_param##*[Y]*}" ] &&  ENABLE_PLYMOUTH=true
     fi
 
     #[ -n "$LEAN" -o -n "$MEAN" ] && : ${WICD:=no}
@@ -217,7 +217,7 @@ do_start() {
     [ "$ENABLE_BOOTCLEAN" ] || disable_services 'checkroot-bootclean disable by default' 'checkroot-bootclean.sh'
     [ "$ENABLE_NTPD"      ] || disable_services "ntpd disable by default" ntp
     [ "$ENABLE_PAM"       ] || disable_pam_login
-    [ "$ENABLE_PLYMOUTH"  ] || disable_services 'plymouth' plymouth
+#    [ "$ENABLE_PLYMOUTH"  ] || disable_services 'plymouth' plymouth
 
     # only exit early if "disable=OFF" is given (see above)
     # [ -n "$must_run" -o -n "$DISABLE_NFS" ] || exit 0

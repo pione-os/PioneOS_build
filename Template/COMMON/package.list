@@ -29,6 +29,7 @@ chromium
 chromium-l10n
 cifs-utils
 console-data
+command-not-found
 console-setup
 console-setup-linux
 cpufrequtils
@@ -69,7 +70,6 @@ espeak-ng-data
 ethtool
 exfatprogs
 extlinux
-emacs
 extundelete
 f2fs-tools
 fakeroot
@@ -86,8 +86,8 @@ fcitx5-frontend-qt5
 fcitx5-frontend-qt6
 im-config
 file
-firefox-esr
-firefox-esr-l10n-ja
+#firefox-esr
+#firefox-esr-l10n-ja
 firmware-amd-graphics
 firmware-ath9k-htc
 firmware-atheros
@@ -259,6 +259,8 @@ procps
 psmisc
 psutils
 pv
+plymouth
+plymouth-themes
 pulseaudio
 pulseaudio-module-bluetooth
 pavucontrol

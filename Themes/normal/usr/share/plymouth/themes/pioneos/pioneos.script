@@ -1,0 +1,17 @@
+
+if (Plymouth.GetMode() == "boot")
+{
+wp_image = Image("pioneos.png");
+wp_sprite = Sprite(wp_image);
+wp_sprite.SetX(Window.GetWidth ()  / 2 - wp_sprite.GetImage().GetWidth()  / 2);
+wp_sprite.SetY(Window.GetHeight ()  / 2 - wp_sprite.GetImage().GetHeight()  / 2);
+wp_sprite.SetZ(-10000);
+}
+else
+{
+gb_image = Image("goodbye.png");
+gb_sprite = Sprite(gb_image);
+gb_sprite.SetX(Window.GetWidth ()  / 2 - gb_sprite.GetImage().GetWidth()  / 2);
+gb_sprite.SetY(Window.GetHeight ()  / 2 - gb_sprite.GetImage().GetHeight()  / 2);
+gb_sprite.SetZ(-10000);
+}
