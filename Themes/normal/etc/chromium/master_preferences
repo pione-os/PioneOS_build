@@ -13,6 +13,10 @@
         "has_seen_welcome_page": true,
         "check_default_browser": false
     },
+	"signin": {
+        "allowed": false,
+		"allowed_on_next_startup": false
+	},
 	"extensions":{
 		"settings":{
 			"cjpalhdlnbpafiamejdnhcphjbkeiagm":{

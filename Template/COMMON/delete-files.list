@@ -33,6 +33,9 @@ usr/share/applications/ndisgtk-kde.desktop
 #usr/share/applications/synaptic-kde.desktop
 #usr/share/applications/synaptic.desktop
 usr/share/applications/vim.desktop
+usr/share/applications/xfce-settings-manager.desktop
+usr/share/applications/xfce4-settings-editor.desktop
+usr/share/applications/xfce4-about.desktop
 usr/share/desktop-defaults
 #usr/share/fluxbox/styles/Artwiz
 #usr/share/fluxbox/styles/Bity_fluxbox

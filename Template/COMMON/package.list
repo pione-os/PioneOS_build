@@ -118,6 +118,7 @@ fonts-freefont-ttf
 fonts-liberation
 fonts-lyx
 fonts-noto
+fonts-quicksand
 fonts-vlgothic
 fonts-opensymbol
 fonts-noto-color-emoji
@@ -147,6 +148,7 @@ gstreamer1.0-alsa
 gstreamer1.0-libav
 gufw
 gvfs
+gvfs-backends
 git
 gtk-sharp3
 haveged
@@ -224,7 +226,6 @@ nala
 nano
 ncurses-term
 neofetch
-neovim
 netcat-traditional
 network-manager
 network-manager-gnome
@@ -252,6 +253,7 @@ pciutils
 pcmciautils
 pm-utils
 pmount
+pioneos-oobe
 policykit-1
 powermgmt-base
 printer-driver-all
@@ -307,6 +309,8 @@ testdisk
 tlp
 tumbler
 traceroute
+thunar
+thunar-archive-plugin
 ttf-bitstream-vera
 ucf
 udevil
