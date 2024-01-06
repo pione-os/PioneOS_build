@@ -1,7 +1,7 @@
-PRETTY_NAME="PioneOS 0.0 (kyohou)"
+PRETTY_NAME="PioneOS 0.5 (kyohou)"
 NAME="PioneOS"
-VERSION_ID="0.0"
-VERSION="0.0 (kyohou)"
+VERSION_ID="0.5"
+VERSION="0.5 (kyohou)"
 VERSION_CODENAME=bookworm
 ID=debian
 ID_LIKE=debian

@@ -118,7 +118,6 @@ fonts-freefont-ttf
 fonts-liberation
 fonts-lyx
 fonts-noto
-fonts-quicksand
 fonts-vlgothic
 fonts-opensymbol
 fonts-noto-color-emoji
@@ -266,7 +265,6 @@ plymouth-themes
 pulseaudio
 pulseaudio-module-bluetooth
 pavucontrol
-#plymouth
 python3-full
 python3-pip
 python3-requests

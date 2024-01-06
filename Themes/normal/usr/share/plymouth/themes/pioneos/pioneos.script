@@ -18,10 +18,11 @@ gb_sprite.SetZ(-10000);
 }
 fun message_callback(text)
 {
-rb_image = Image.Text("PioneOSを起動中:\n" + text, 1, 1, 1, 1, "Noto Sans 14");
+rb_image = Image.Text(text + "を起動中...", 1, 1, 1, 1, "Noto Sans 14");
 rb_sprite = Sprite(rb_image);
 rb_sprite.SetX(Window.GetWidth ()  / 2 - rb_sprite.GetImage().GetWidth()  / 2);
 rb_sprite.SetY(Window.GetHeight () / 1.05 - rb_sprite.GetImage().GetHeight() / 1);
+gb_sprite.SetZ(0);
 }
 
 if (Plymouth.GetMode() == "boot")
