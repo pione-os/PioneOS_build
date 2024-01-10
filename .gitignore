@@ -1,6 +1,7 @@
 Deb/
 Output/
 Remaster/
+Remaster
 doc-*.tar.bz2
 /initrd
 /iso

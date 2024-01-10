@@ -9,10 +9,10 @@ windowPlacement: center
 strings:
     productName:         PioneOS
     shortProductName:    PioneOS
-    version:             0.5
-    shortVersion:        0.5
-    versionedName:       PioneOS (kyohou)
-    shortVersionedName:  PioneOS 0.5
+    version:             0.9
+    shortVersion:        0.9
+    versionedName:       PioneOS (fujiminori)
+    shortVersionedName:  PioneOS 0.9
     bootloaderEntryName: PioneOS
     productUrl:          https://ospio.net
     supportUrl:          https://www.debian.org/support

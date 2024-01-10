@@ -29,10 +29,10 @@
 # this is basic version info. used to make mx-version among other things
 BUG_REPORT_URL="https://ospione.gbudou.com"
 HOME_URL="https://ospione.gbudou.com"
-CODE_NAME="kyohou"
+CODE_NAME="fujiminori"
 ASCII_CODE_NAME="bookworm"
 
-DISTRO_VERSION="23.1"
+DISTRO_VERSION="0.9"
 DISTRO_NAME="PioneOS"
 RELEASE_DATE="2023/12/03"
 
