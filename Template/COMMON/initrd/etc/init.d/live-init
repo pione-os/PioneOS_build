@@ -581,8 +581,8 @@ set_keyboard() {
     #[ "$XKBVARIANT" ] && echo_live "$_Setting_X_to_Y_" $(pquote xkb-variant) $(pquote $XKBVARIANT)
     #[ "$XKBOPTIONS" ] && echo_live "$_Setting_X_to_Y_" $(pquote xkb-options) $(pquote $XKBOPTIONS)
 
-    echo_live "$_Setting_X_to_Y_" $(pquote xkb-layout)  $(pquote ${XKBLAYOUT:=us})
-    echo_live "$_Setting_X_to_Y_" $(pquote xkb-model)   $(pquote ${XKBMODEL:=pc105})
+    echo_live "$_Setting_X_to_Y_" $(pquote xkb-layout)  $(pquote ${XKBLAYOUT:=jp})
+    echo_live "$_Setting_X_to_Y_" $(pquote xkb-model)   $(pquote ${XKBMODEL:=pc108})
     echo_live "$_Setting_X_to_Y_" $(pquote xkb-variant) $(pquote ${XKBVARIANT})
     echo_live "$_Setting_X_to_Y_" $(pquote xkb-options) $(pquote ${XKBOPTIONS:=$default_xkb_opts})
 
@@ -591,8 +591,8 @@ set_keyboard() {
 
 # Consult the keyboard(5) manual page.
 
-XKBMODEL="${XKBMODEL:=pc105}"
-XKBLAYOUT="${XKBLAYOUT:=us}"
+XKBMODEL="${XKBMODEL:=pc108}"
+XKBLAYOUT="${XKBLAYOUT:=jp}"
 XKBVARIANT="${XKBVARIANT}"
 XKBOPTIONS="${XKBOPTIONS:=$default_xkb_opts}"
 
