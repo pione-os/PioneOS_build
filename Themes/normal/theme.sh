@@ -13,6 +13,7 @@ copy_dir etc/               	/etc/       	--create
 copy_dir usr/               	/usr/       	--create
 rm /usr/share/applications/calamares.desktop
 rm -f /etc/localtime
+chmod +x /etc/rc.local
 ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 echo blacklist pcspkr >> /etc/modprobe.d/blacklist
 ##alpha

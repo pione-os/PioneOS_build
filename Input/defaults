@@ -16,7 +16,7 @@ HOME_URL="https://ospio.net"
 CODE_NAME="fujiminori"
 ASCII_CODE_NAME="bookworm"
 
-DISTRO_VERSION="0.9"
+DISTRO_VERSION="1.0"
 
 
 DISTRO_NAME="PioneOS"

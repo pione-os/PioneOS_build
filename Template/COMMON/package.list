@@ -252,6 +252,7 @@ pcmciautils
 pm-utils
 pmount
 pioneos-oobe
+pioneos-webiconsetter
 policykit-1
 powermgmt-base
 printer-driver-all
@@ -284,8 +285,6 @@ sdparm
 sgml-data
 shared-mime-info
 spice-vdagent
-smplayer
-smplayer-l10n
 squashfs-tools
 sshfs
 ssl-cert
@@ -328,6 +327,10 @@ vdpau-driver-all
 vim
 vorbis-tools
 vpnc
+vlc
+vlc-l10n
+vlc-plugin-access-extra
+vlc-plugin-samba
 vrms
 wamerican
 wavpack

@@ -1,0 +1,13 @@
+#!/bin/sh
+echo "次回起動時に Windows が起動します。"
+sudo grub-reboot "$(sudo grep -i "windows" /boot/grub/grub.cfg | cut -d"'" -f2 | sed 's/)/\)/g' | sed 's/(/(/g')" > /dev/null 2>&1 > /dev/null
+echo "今すぐ再起動しますか? [Y/n]: "
+read CMD
+case $CMD in
+    [Yy]* )
+       sudo reboot
+       ;;
+     * )
+       echo "Abort."
+      ;;
+esac

@@ -1,0 +1,1 @@
+cp /etc/pioneos/os-release /etc/os-release

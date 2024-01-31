@@ -32,7 +32,7 @@ HOME_URL="https://ospione.gbudou.com"
 CODE_NAME="fujiminori"
 ASCII_CODE_NAME="bookworm"
 
-DISTRO_VERSION="0.9"
+DISTRO_VERSION="1.0"
 DISTRO_NAME="PioneOS"
 RELEASE_DATE="2023/12/03"
 
