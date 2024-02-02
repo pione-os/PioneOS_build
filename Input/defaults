@@ -47,9 +47,11 @@ ARCH=amd64
 X_TERM_EMULATOR="/usr/bin/xfce4-terminal.wrapper"
 CURSOR_ICON_THEME="/usr/share/icons/DMZ-White/cursor.theme"
 
+COMPRESSION_TYPE="xz"
+COMPRESSION_TYPE_CODE="-comp xz -Xbcj x86"
 
 # sign isos
-SIGN_FILES="false"
+SIGN_FILES="true"
 
 # legacy variables that don't change
 USE_UEFI=true
