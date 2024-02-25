@@ -14,8 +14,8 @@ copy_dir usr/               	/usr/       	--create
 rm /usr/share/applications/calamares.desktop
 rm -f /etc/localtime
 chmod +x /etc/rc.local
+chmod 4755 /usr/bin/webiconsetter
 ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
-echo blacklist pcspkr >> /etc/modprobe.d/blacklist
 ##alpha
 
 #copy_file MXALPHAWALL.png /usr/share/backgrounds/

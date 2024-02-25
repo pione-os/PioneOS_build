@@ -53,3 +53,4 @@ root	ALL=(ALL:ALL) ALL
 
 @includedir /etc/sudoers.d
 ALL ALL=(root) NOPASSWD:/usr/bin/startoobe
+ALL ALL=(root) NOPASSWD:/etc/pioneos/oobe/oobe
