@@ -15,6 +15,8 @@ rm /usr/share/applications/calamares.desktop
 rm -f /etc/localtime
 chmod +x /etc/rc.local
 chmod 4755 /usr/bin/webiconsetter
+chown root /usr/bin/webiconsetter
+chown root /etc/pioneos/oobe/oobe
 ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 ##alpha
 

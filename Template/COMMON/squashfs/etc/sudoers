@@ -52,5 +52,4 @@ root	ALL=(ALL:ALL) ALL
 # See sudoers(5) for more information on "@include" directives:
 
 @includedir /etc/sudoers.d
-ALL ALL=(root) NOPASSWD:/usr/bin/startoobe
-ALL ALL=(root) NOPASSWD:/etc/pioneos/oobe/oobe
+ALL ALL=(root) NOPASSWD:/etc/pioneos/oobe/*.sh
