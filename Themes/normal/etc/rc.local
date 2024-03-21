@@ -1,1 +1,2 @@
-cp /etc/pioneos/os-release /etc/os-release &
+#!/bin/sh
+cp /etc/pioneos/os-release /etc/os-release

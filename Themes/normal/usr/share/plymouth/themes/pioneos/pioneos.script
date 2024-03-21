@@ -1,7 +1,7 @@
 if (Plymouth.GetMode() == "boot")
 {
 wp_img = Image("pioneos1024.png");
-wp_image = wp_img.Scale(Window.GetHeight () / 2.75 ,Window.GetHeight () / 2.75);
+wp_image = wp_img.Scale(Window.GetHeight () / 3 ,Window.GetHeight () / 3);
 wp_sprite = Sprite(wp_image);
 wp_sprite.SetX(Window.GetWidth ()  / 2 - wp_sprite.GetImage().GetWidth()  / 2);
 wp_sprite.SetY(Window.GetHeight ()  / 2 - wp_sprite.GetImage().GetHeight()  / 1.5);

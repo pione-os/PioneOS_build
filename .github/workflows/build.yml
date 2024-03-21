@@ -25,4 +25,4 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: PioneOS_build
-        path: Remaster/iso-files/**
+        path: Remaster/iso-files/*.iso
