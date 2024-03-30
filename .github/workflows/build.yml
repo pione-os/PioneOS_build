@@ -10,15 +10,11 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: 777shuang/build-pioneos
 
     steps:
     - uses: actions/checkout@v4
-
-    - run: sudo apt update
-    
-    - run: sudo apt upgrade -y
-
-    - run: sudo apt install -y debootstrap genisoimage syslinux-utils squashfs-tools zsync expect
 
     - run: ./build-iso --user-default defaults
 
