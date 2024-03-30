@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=pacup
+Comment=Update your linux system
+Comment[ja]=お使いのシステムのアップデートを行います。
+GenericName=Linux Updater Program
+GenericName[ja]=Linux更新プログラム
+Exec=pkexec pacup -y
+Terminal=true
+Type=Application
+Icon=system-software-update
+Categories=System;Settings;
+StartupNotify=true

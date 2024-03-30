@@ -86,8 +86,6 @@ fcitx5-frontend-qt5
 fcitx5-frontend-qt6
 im-config
 file
-#firefox-esr
-#firefox-esr-l10n-ja
 firmware-amd-graphics
 firmware-ath9k-htc
 firmware-atheros
@@ -118,14 +116,16 @@ fonts-freefont-ttf
 fonts-liberation
 fonts-lyx
 fonts-noto
+fonts-noto-cjk
+fonts-noto-color-emoji
 fonts-vlgothic
 fonts-opensymbol
-fonts-noto-color-emoji
 fonts-uralic
 foomatic-db-compressed-ppds
 fprintd
 ftp
 fuse3
+galculator
 gcc
 gddrescue
 gdebi

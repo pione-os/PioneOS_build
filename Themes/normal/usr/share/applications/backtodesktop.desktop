@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=!return to desktop
-Name[ja]=!デスクトップへ戻る
-Comment=close the Start menu and return to the desktop
-Comment[ja]=何もせずにスタートメニューを閉じてデスクトップへ戻ります
-Exec=
-Type=Application
-Categories=Settings;
-Icon=deepin-toggle-desktop

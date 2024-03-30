@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=Reset Desktop Settings
+Name[ja]=デスクトップ設定の初期化
+Comment[ja]=デスクトップ設定をセットアップ直後の状態に初期化します。
+Exec=reset-desktop-settings
+OnlyShowIn=XFCE;
+RunHook=0
+StartupNotify=false
+Terminal=false
+Categories=Settings;
+Hidden=false
+Icon=deepin-toggle-desktop

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       id="filter43"
+       x="-0.034285715"
+       y="-0.034285715"
+       width="1.0685714"
+       height="1.0757143">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.250980"
+         flood-color="rgb(0,0,0)"
+         id="feFlood42" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="0.200000"
+         id="feGaussianBlur42" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="0.100000"
+         id="feOffset42" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite42" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite43" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <circle
+       style="fill:#ffffff;stroke-width:0.583334;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;filter:url(#filter43)"
+       id="path34"
+       cx="8"
+       cy="8"
+       r="7" />
+    <g
+       id="g34"
+       transform="translate(0,-0.5)">
+      <g
+         id="g30"
+         transform="translate(0.5)"
+         style="fill:#892ca0">
+        <circle
+           style="fill:#892ca0;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path6"
+           cx="6"
+           cy="6"
+           r="1" />
+        <circle
+           style="fill:#892ca0;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path9"
+           cx="6"
+           cy="8"
+           r="1" />
+        <circle
+           style="fill:#892ca0;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path14"
+           cx="6"
+           cy="10"
+           r="1" />
+        <circle
+           style="fill:#892ca0;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path20"
+           cx="6"
+           cy="12"
+           r="1" />
+      </g>
+      <g
+         id="g31"
+         transform="translate(-0.5)"
+         style="fill:#892ca0">
+        <circle
+           style="fill:#892ca0;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path7"
+           cx="10"
+           cy="6"
+           r="1" />
+        <circle
+           style="fill:#892ca0;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path12"
+           cx="10"
+           cy="8"
+           r="1" />
+        <circle
+           style="fill:#892ca0;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path17"
+           cx="10"
+           cy="10"
+           r="1" />
+        <circle
+           style="fill:#892ca0;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path21"
+           cx="10"
+           cy="12"
+           r="1" />
+      </g>
+      <g
+         id="g29"
+         transform="translate(1,-0.5)">
+        <circle
+           style="fill:#ab37c8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path10"
+           cx="4"
+           cy="7"
+           r="1" />
+        <circle
+           style="fill:#ab37c8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path15"
+           cx="4"
+           cy="9"
+           r="1" />
+        <circle
+           style="fill:#ab37c8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path23"
+           cx="4"
+           cy="11"
+           r="1" />
+      </g>
+      <g
+         id="g28"
+         transform="translate(-1,-0.5)">
+        <circle
+           style="fill:#ab37c8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path11"
+           cx="12"
+           cy="7"
+           r="1" />
+        <circle
+           style="fill:#ab37c8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path16"
+           cx="12"
+           cy="9"
+           r="1" />
+        <circle
+           style="fill:#ab37c8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path22"
+           cx="12"
+           cy="11"
+           r="1" />
+      </g>
+      <g
+         id="g32">
+        <circle
+           style="fill:#ab37c8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path5"
+           cx="8"
+           cy="5"
+           r="1" />
+        <circle
+           style="fill:#ab37c8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path8"
+           cx="8"
+           cy="7"
+           r="1" />
+        <circle
+           style="fill:#ab37c8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path13"
+           cx="8"
+           cy="9"
+           r="1" />
+        <circle
+           style="fill:#ab37c8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path18"
+           cx="8"
+           cy="11"
+           r="1" />
+        <circle
+           style="fill:#ab37c8;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path19"
+           cx="8"
+           cy="13"
+           r="1" />
+      </g>
+      <g
+         id="g33">
+        <circle
+           style="fill:#37c871;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path26"
+           cx="6.5"
+           cy="4"
+           r="1" />
+        <circle
+           style="fill:#37c871;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path27"
+           cx="9.5"
+           cy="4"
+           r="1" />
+        <circle
+           style="fill:#2ca05a;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+           id="path28"
+           cx="8"
+           cy="4"
+           r="1" />
+      </g>
+    </g>
+  </g>
+</svg>

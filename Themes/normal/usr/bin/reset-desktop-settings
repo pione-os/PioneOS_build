@@ -1,0 +1,20 @@
+#!/bin/sh
+
+gdialog --title "デスクトップ設定の初期化" --yesno "デスクトップの設定をセットアップ直後の状態に初期化しますか?\n\n※「はい」を押すと初期化した後に自動でログアウトします。" 0 0
+
+EXITCODE=$?
+echo "$EXITCODE"
+if [ $EXITCODE -eq 0 ]; then
+    echo "初期化を実行しています"
+    pkill xfce4-panel
+    pkill xfsettingsd
+    pkill xfconfd 
+    rm -rf ~/.config/xfce4
+    cp -r /etc/skel/. ~/
+    sleep 1
+    cp -r /etc/skel/.config/xfce4 ~/.config/
+    pkill xfce4
+
+else
+    echo "中断"
+fi 
