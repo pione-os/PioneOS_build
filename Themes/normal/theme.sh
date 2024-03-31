@@ -16,6 +16,10 @@ rm -f /etc/localtime
 chmod +x /etc/rc.local
 chmod 4755 /usr/bin/webiconsetter
 chown root /usr/bin/webiconsetter
+chmod 4755 /usr/bin/pacup
+chown root /usr/bin/pacup
+chmod 4755 /usr/bin/reset-desktop-settings
+chown root /usr/bin/reset-desktop-settings
 chown root /etc/pioneos/oobe/oobe
 ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 ##alpha
