@@ -204,7 +204,6 @@ lxrandr
 make
 manpages
 mbr
-mc
 menu
 menu-l10n
 menu-xdg
@@ -216,7 +215,6 @@ module-assistant
 mokutil
 mousepad
 most
-mozo
 mpg123
 mtools
 mtr
@@ -377,6 +375,7 @@ xserver-xorg-input-all
 xserver-xorg-video-all
 xz-utils
 yad
+zenity
 zip
 zram-tools
 zstd
