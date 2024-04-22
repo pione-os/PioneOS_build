@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE actions [
+  <!ELEMENT actions (action)+>
+
+  <!ELEMENT action (icon|patterns|name|unique-id|command|description|directories|audio-files|image-files|other-files|text-files|video-files)*>
+
+  <!ELEMENT icon (#PCDATA)>
+  <!ELEMENT command (#PCDATA)>
+  <!ELEMENT patterns (#PCDATA)>
+
+  <!ELEMENT name (#PCDATA)>
+  <!ATTLIST name xml:lang CDATA #IMPLIED>
+
+  <!ELEMENT unique-id (#PCDATA)>
+
+  <!ELEMENT description (#PCDATA)>
+  <!ATTLIST description xml:lang CDATA #IMPLIED>
+
+  <!ELEMENT startup-notify EMPTY>
+
+  <!ELEMENT directories EMPTY>
+  <!ELEMENT audio-files EMPTY>
+  <!ELEMENT image-files EMPTY>
+  <!ELEMENT other-files EMPTY>
+  <!ELEMENT text-files EMPTY>
+  <!ELEMENT video-files EMPTY>
+]>
+<actions>
+  <action>
+    <icon>utilities-terminal</icon>
+    <patterns>*</patterns>
+    <range/>
+    <name>Open Terminal Here</name>
+    <name xml:lang="ja">ここで Terminal を開く</name>
+    <command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	  <description>open a terminal here.</description>
+    <description xml:lang="ja">ここでターミナルを開きます。</description>
+    <startup-notify/>
+    <directories/>
+  </action>
+<action>
+	<icon>filename-discnumber-amarok</icon>
+	<name>Open as Root</name>
+  <name xml:lang="ja">ここを Root で開く</name>
+	<command>pkexec thunar %f</command>
+	<description>Open this directory with Root.</description>
+  <description xml:lang="ja">Root権限でこのディレクトリを開きます。</description>
+	<range>1</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>java</icon>
+	<name>Run this jar</name>
+  <name xml:lang="ja">この jar を実行する</name>
+	<command>x-terminal-emulator -e  java -jar %n</command>
+	<description>Run this jar file.</description>
+  <description xml:lang="ja">選択した jar を実行します。</description>
+	<range>1</range>
+	<patterns>*.jar</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>python</icon>
+	<name>Run this py</name>
+  <name xml:lang="ja">この py を実行する</name>
+	<command>x-terminal-emulator -e  python3 %f</command>
+	<description>Run this py file.</description>
+  <description xml:lang="ja">選択した py を実行します。</description>
+	<range>1</range>
+	<patterns>*.py</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>application-x-iso9660-appimage</icon>
+	<name>Allow this AppImage</name>
+  <name xml:lang="ja">この AppImage の実行を許可する</name>
+	<command>chmod +x %f &amp;&amp; %f</command>
+	<description>Allows execution of the selected AppImage.</description>
+  <description xml:lang="ja">選択した AppImage の実行を許可します。</description>
+	<range>1</range>
+	<patterns>*.AppImage</patterns>
+	<other-files/>
+</action>
+</actions>

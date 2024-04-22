@@ -1,6 +1,6 @@
 {
     "distribution": {
-        "import_bookmarks": false,
+        "import_bookmarks": true,
         "import_bookmarks_from_file": "/usr/share/chromium/initial_bookmarks.html",
         "make_chrome_default": false,
         "make_chrome_default_for_user": false,
@@ -53,6 +53,23 @@
 					"scriptable_host":["*://*.youtube.com/*","*://*.youtube-nocookie.com/*","*://*.youtu.be/*"]
 				},
 				"path":"aleakchihdccplidncghkekgioiakgal\\0.0",
+				"state":1
+			},
+          	"occjjkgifpmdgodlplnacmkejpdionan":{
+				"location":1,
+				"manifest":{
+					"manifest_version":2,
+                    "key":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDugJ2CsIwd0EXpUJ1P60zmYVMx3Nkefcsyhu3llsllUrapm3gXJO+0GNvWgSgZ0IUR3hW6occN5uOEmjR5mtcM98vpQC7LmZIzyKWRa6O9LtRBbhSG8GsMUs/oVrJmmj+OuZ3GqY93Nmak2T6HmdR1GRJvCFElzhrOaKj5GqAjwIDAQAB",
+					"name":"AutoScroll",
+					"permissions": ["storage"],
+					"update_url":"https://clients2.google.com/service/update2/crx",
+					"version":"0.0"
+				},
+				"granted_permissions":{
+					"explicit_host":["<all_urls>","http://*/*","https://*/*"],
+					"scriptable_host":["http://*/*","https://*/*"]
+				},
+				"path":"occjjkgifpmdgodlplnacmkejpdionan\\0.0",
 				"state":1
 			}
 		}
