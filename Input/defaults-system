@@ -27,8 +27,8 @@
        PS_FORMAT="pid,user,etimes,args"
 
 # this is basic version info. used to make mx-version among other things
-BUG_REPORT_URL="https://ospione.gbudou.com"
-HOME_URL="https://ospione.gbudou.com"
+BUG_REPORT_URL="https://ospio.net"
+HOME_URL="https://ospio.net"
 CODE_NAME="fujiminori"
 ASCII_CODE_NAME="bookworm"
 
@@ -40,7 +40,7 @@ RELEASE_DATE="2023/12/03"
 DEBIAN_RELEASE="bookworm"
 
 LIVE_USER="demo"
-NEW_HOSTNAME="pos0"
+NEW_HOSTNAME="pos1"
 
 # kernel
 # standard 64 bit
@@ -55,7 +55,7 @@ LOCALE="ja_JP.UTF-8"
 MIRROR="jp"
 LOCAL_MIRROR="jp"
 MIRROR_URL_TEMPLATE='http://ftp.$LOCAL_MIRROR.debian.org/debian'
-NEW_HOSTNAME="pos0"
+NEW_HOSTNAME="pos1"
 TIME_ZONE="Asia/Tokyo"
 
 X_TERM_EMULATOR="/usr/bin/xfce4-terminal.wrapper"

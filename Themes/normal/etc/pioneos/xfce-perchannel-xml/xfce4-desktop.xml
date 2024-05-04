@@ -33,17 +33,17 @@
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="1"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/pioneos/pione_bg_mini.jpg"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="1"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/pioneos/pione_bg_mini.jpg"/>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="1"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/pioneos/pione_bg_mini.jpg"/>
         </property>
       </property>
     </property>
