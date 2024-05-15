@@ -1,2 +1,2 @@
 #!/bin/sh
-cp /etc/pioneos/os-release /etc/os-release
+cp /usr/share/pioneos/os-release /etc/os-release

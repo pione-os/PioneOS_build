@@ -15,7 +15,7 @@ rm /usr/share/applications/calamares.desktop
 rm -f /etc/localtime
 chmod +x /etc/rc.local
 chmod 4755 /usr/bin/webiconsetter
-chown -R root:root /etc/pioneos
+chown -R root:root /usr/share/pioneos
 chown root:root /usr/bin/webiconsetter
 chmod 4755 /usr/bin/pacup
 chown root:root /usr/bin/pacup
