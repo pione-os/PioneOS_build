@@ -8,6 +8,6 @@ case $CMD in
        sudo reboot
        ;;
      * )
-       echo "Abort."
+       echo ""
       ;;
 esac

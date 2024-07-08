@@ -52,6 +52,7 @@ if [ "$PACUP_MOD" == "apt" ]; then
   exit 0
 fi
 
+SECONDS=0
 echo -e "Flatpakパッケージをアップデートします"
 PACUP_FPK
 echo -e "Flatpakパッケージをアップデートしました"
@@ -73,7 +74,8 @@ echo -e "Snapパッケージをアップデートしました"
 echo -e "\nDebianパッケージをアップデートします"
 PACUP_APT
 echo -e "Debianパッケージをアップデートしました"
-
-sleep 7
+time=$SECONDS
+echo $time"秒でシステムをアップデートしました"
+sleep 5
 
 exit 0

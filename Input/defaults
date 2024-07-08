@@ -16,11 +16,11 @@ HOME_URL="https://ospio.net"
 CODE_NAME="fujiminori"
 ASCII_CODE_NAME="bookworm"
 
-DISTRO_VERSION="1.0"
+DISTRO_VERSION="0.9"
 
 
 DISTRO_NAME="PioneOS"
-RELEASE_DATE="2024/5/4"
+RELEASE_DATE="2024/7/8"
 
 # system defaults, these end up inside the squash file system mostly
 DEBIAN_RELEASE="bookworm"
@@ -29,7 +29,7 @@ LIVE_USER="demo"
 NEW_HOSTNAME="pos1"
 
 # standard 64 bit
-K_REVISION="21"
+K_REVISION="22"
 K_TEMPLATE="%V%G-%R-%A"
 K_VERSION="6.1.0"
 UNSIGNED=""

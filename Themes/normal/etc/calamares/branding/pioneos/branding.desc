@@ -9,8 +9,8 @@ windowPlacement: center
 strings:
     productName:         PioneOS
     shortProductName:    PioneOS
-    version:             1.0
-    shortVersion:        1.0
+    version:             0.9
+    shortVersion:        0.9
     versionedName:       PioneOS (fujiminori)
     shortVersionedName:  PioneOS 1
     bootloaderEntryName: PioneOS

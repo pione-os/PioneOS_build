@@ -14,16 +14,15 @@ copy_dir usr/               	/usr/       	--create
 rm /usr/share/applications/calamares.desktop
 rm -f /etc/localtime
 chmod +x /etc/rc.local
-chmod 4755 /usr/bin/webiconsetter
 chown -R root:root /usr/share/pioneos
-chown root:root /usr/bin/webiconsetter
 chmod 4755 /usr/bin/pacup
 chown root:root /usr/bin/pacup
 chmod 4755 /usr/bin/reset-desktop-settings
 chown root:root /usr/bin/reset-desktop-settings
 chmod 4755 /usr/bin/rebootwin
 chown root:root /usr/bin/rebootwin
-
+chmod 4755 /usr/bin/xfce-superkey
+chown root:root /usr/bin/xfce-superkey
 ln -s /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 ##alpha
 

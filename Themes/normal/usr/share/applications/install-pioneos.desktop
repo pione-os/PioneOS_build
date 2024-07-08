@@ -2,6 +2,7 @@
 Type=Application
 Version=1.0
 Name=Install PioneOS
+Name[ja]=PioneOS をインストール
 GenericName=Calamares Installer
 Exec=install-pioneos
 Comment=Calamares — Installer for PioneOS Live

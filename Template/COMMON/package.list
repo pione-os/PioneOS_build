@@ -129,6 +129,8 @@ galculator
 gcc
 gddrescue
 gdebi
+gnome-session-canberra
+gnome-system-tools
 gdisk
 ghostscript
 ghostscript-x
@@ -180,6 +182,9 @@ libgail-common
 libgpg-error-l10n
 libgphoto2-l10n
 libgtk3-perl
+libcanberra-gtk3-module
+libcanberra-pulse
+libcanberra-gtk-module
 libmtp-runtime
 libnss-mdns
 libnss-myhostname
@@ -250,7 +255,6 @@ pcmciautils
 pm-utils
 pmount
 pioneos-oobe
-pioneos-webiconsetter
 policykit-1
 powermgmt-base
 printer-driver-all
